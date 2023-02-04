@@ -47,7 +47,7 @@ class ProductManager {
 
     //La clase debe contar con una variable this.path, el cual se inicializará desde el constructor y debe recibir la ruta a trabajar desde el momento de generar su instancia.
     static productPath = (id) => {
-        fs.writeFileSync(`./${id}.txt`, `Product ID: ${id}`)
+        fs.writeFileSync(`./productos/${id}.txt`, `Product ID: ${id}`)
 
         if (fs.existsSync(`./${id}.txt`)) { //verificar que exista
             // let contenido = fs.readFileSync(`./${id}.txt`, "utf-8")
