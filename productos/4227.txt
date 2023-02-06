@@ -1,0 +1,8 @@
+ Product ID: 4227
+        title: Iphone 14, 
+        description: Este es un producto prueba, 
+        price: 5600,
+        thumbnail: Sin imagen,
+        code: abc456, 
+        stock: 5,
+        categoria: tecno

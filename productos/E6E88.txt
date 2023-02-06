@@ -1,0 +1,8 @@
+ Product ID: E6E88
+        title: Crema Facial, 
+        description: Este es un producto prueba, 
+        price: 1600,
+        thumbnail: Sin imagen,
+        code: abc456, 
+        stock: 10,
+        categoria: cosmetica

@@ -1,0 +1,8 @@
+ Product ID: ABA65
+        title: Vaso termico, 
+        description: Este es un producto prueba, 
+        price: 1600,
+        thumbnail: Sin imagen,
+        code: abc456, 
+        stock: 8,
+        categoria: hogar

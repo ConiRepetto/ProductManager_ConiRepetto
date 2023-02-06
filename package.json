@@ -5,7 +5,7 @@
   "description": "",
   "main": "ProductManager - Entregable3.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

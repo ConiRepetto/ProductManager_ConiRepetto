@@ -1,0 +1,8 @@
+ Product ID: 4227
+        title: Samsung Galaxy, 
+        description: Este es un producto prueba, 
+        price: 1600,
+        thumbnail: Sin imagen,
+        code: abc456, 
+        stock: 3,
+        categoria: tecno

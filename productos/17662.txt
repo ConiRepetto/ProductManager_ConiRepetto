@@ -1,0 +1,8 @@
+ Product ID: 17662
+        title: Iphone, 
+        description: Este es un producto prueba, 
+        price: 1600,
+        thumbnail: Sin imagen,
+        code: abc456, 
+        stock: 15,
+        categoria: tecno
