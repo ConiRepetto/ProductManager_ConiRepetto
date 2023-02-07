@@ -18,16 +18,22 @@ router.use(express.urlencoded({
     extended: true
 }))
 
-router.get('/productos/listar', (req, res) => {
+
+router.get('/productos', (req, res) => {
     res.json(productos.listarAll())
 })
 
-router.get('/productos/listar/:id', (req, res) => {
+router.get('/productos/?limit=:num', (req, res) => {
+    res.json(productos.slice(0, num))
+})
+
+router.get('/productos/:id', (req, res) => {
     let {
         id
     } = req.params
     res.json(productos.listar(id))
 })
+
 
 router.post('/productos/guardar', (req, res) => {
     let producto = req.body
